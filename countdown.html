@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Christmas Countdown</title>
+		<title>Birthday Countdown</title>
 		<style type="text/css">
 		body {
-			background: #f6f6f6;
+			background: #5F9EA0;
 		}
 
 		.countdownContainer{
@@ -20,6 +20,7 @@
 		}
 
 		.info {
+      font-family: American Typewriter, serif;
 			font-size: 80px;
 		}
 		</style>
@@ -27,7 +28,7 @@
 	<body>
 		<table class="countdownContainer">
 			<tr class="info">
-				<td colspan="4">Christmas Countdown</td>
+				<td colspan="4">Birthday Countdown</td>
 			</tr>
 			<tr class="info">
 				<td id="days">120</td>
@@ -46,7 +47,7 @@
 
 			function countdown(){
 				var now = new Date();
-				var eventDate = new Date(now.getFullYear(), 11, 25);
+				var eventDate = new Date(2018,09,10);
 
 				var currentTiime = now.getTime();
 				var eventTime = eventDate.getTime();
