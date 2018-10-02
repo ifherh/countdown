@@ -4,7 +4,7 @@
 		<title>Birthday Countdown</title>
 		<style type="text/css">
 		body {
-			background: #5F9EA0;
+			background: #339933;
 		}
 
 		.countdownContainer{
@@ -23,25 +23,37 @@
       font-family: American Typewriter, serif;
 			font-size: 80px;
 		}
+
+    .units{
+      font-family: American Typewriter, serif;
+			font-size: 20px;
+    }
 		</style>
 	</head>
 	<body>
-		<table class="countdownContainer">
+		<table class="countdownContainer" >
 			<tr class="info">
 				<td colspan="4">Birthday Countdown</td>
 			</tr>
+      <tr>
+        <td > . </td>
+        <td > . </td>
+        <td > . </td>
+        <td > . </td>
+      </tr>
 			<tr class="info">
 				<td id="days">120</td>
 				<td id="hours">4</td>
 				<td id="minutes">12</td>
 				<td id="seconds">22</td>
 			</tr>
-			<tr>
-				<td>Days</td>
-				<td>Hours</td>
-				<td>Minutes</td>
-				<td>Seconds</td>
+			<tr class="units">
+				<td id = "unitDays">Days</td>
+				<td id = "unitHours">Hours</td>
+				<td id = "unitMinutes">Minutes</td>
+				<td id = "unitSeconds">Seconds</td>
 			</tr>
+
 		</table>
 		<script type="text/javascript">
 
